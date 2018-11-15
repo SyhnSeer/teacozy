@@ -4,4 +4,44 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 69px;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: inherit;
+}
+
+header p {
+  display: flex;
+  flex-grow: 2;
+  padding-left: 20px;
+}
+
+header img {
+  height: 50px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding-right: 20px;
+}
+
+nav span {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.content {
+  padding-top: 69px;
 }
