@@ -1,4 +1,4 @@
-* {
+body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -7,10 +7,12 @@
   background-color: black;
 }
 
+ body
 .content {
   width: 1200px;
   margin: 0 auto;
 }
+
 a {
   color: inherit;
 }
@@ -113,15 +115,22 @@ nav span {
 }
 
 .section3 .column {
+  display: flex;
   background-color: black;
   opacity: 1;
   width: 300px;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
 }
 
 .section3 h2 {
-  display: flex;
   bottom: 15px;
   background: none;
+}
+
+.section4 {
+  height: 200px;
 }
 
 footer {
