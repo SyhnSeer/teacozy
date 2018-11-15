@@ -117,6 +117,7 @@ nav span {
 .section3 h2 {
   display: flex;
   bottom: 15px;
+  background: none;
 }
 
 footer {
