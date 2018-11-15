@@ -88,7 +88,7 @@ nav span {
 .column {
   display: flex;
   flex-direction: column;
-  margin-right: 20px;
+  marin-right: 20px;
   margin-left: 20px;
   top: 15px;
 }
@@ -107,8 +107,12 @@ nav span {
   height: 500px;
 }
 
-.section3 .column {
+.section3 .row {
   display: flex;
+  background: none;
+}
+
+.section3 .column {
   background-color: black;
   opacity: 1;
   width: 300px;
