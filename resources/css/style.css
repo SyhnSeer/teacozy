@@ -1,14 +1,16 @@
-body {
+* {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  background-color: black;
   opacity: 0.9;
   text-align: center;
-  margin: 0 auto;
-  width: 1200px;
+  background-color: black;
 }
 
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
 a {
   color: inherit;
 }
@@ -23,7 +25,8 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  background-color: inherit;
+  background-color: black;
+  z-index: 1;
 }
 
 header p {
@@ -65,11 +68,7 @@ nav span {
 }
 
 .section1 .center {
-  display: flex;
-  flex-direction: column;
   background-color: black;
-  justify-content: center;
-  align-items: center;
   width: inherit;
 }
 
@@ -104,6 +103,7 @@ nav span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 500px;
 }
 
@@ -115,6 +115,7 @@ nav span {
 }
 
 .section3 h2 {
+  display: flex;
   bottom: 15px;
 }
 
